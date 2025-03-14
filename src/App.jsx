@@ -1,7 +1,14 @@
-import './App.css';
+import './index.css'
+import GetPokemon from './components/pokemon'
 
-function App () {
-  <></>
-};
+function App() {
+  return (
+    <>
+      <GetPokemon />
+    </>
+  );
+}
 
 export default App;
+
+
